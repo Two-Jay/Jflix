@@ -1,10 +1,15 @@
 import React from "react";
+import "./About.css";
 
 function About() {
   return (
-    <span>
-      About Jflix : Hello, I'm Two-Jay, I'm learning web programming :)
-    </span>
+    <div className="about_container">
+      <span>
+        "Remember, Red, hope is a good thing, maybe the best of things, and no
+        good thing ever dies."
+      </span>
+      <span>- the shawshank redemption(1994)</span>
+    </div>
   );
 }
 
